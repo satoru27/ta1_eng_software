@@ -3,8 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
+  <link rel="stylesheet" type="text/css" href="css/style_new_user.css"></link>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 </head>
 <body>
-  <h1>Página de novo usuário</h1>
+  <div class="container">
+    <img src="img/logo.png" style='height: 60%; width: 60%; object-fit: contain'>
+    <form>
+      <div class = "form-input">
+        <input type="text" name="usuario" placeholder="Usuário">
+      </div>
+      <div class = "form-input">
+        <input type="password" name="email" placeholder="E-mail">
+      </div>
+      <div class = "form-input">
+        <input type="password" name="identifier" placeholder="Matrícula ou CPF">
+      </div>
+      <div class = "form-input">
+        <input type="password" name="senha" placeholder="Senha">
+      </div>
+      <div class = "form-input">
+        <input type="password" name="senha_confirm" placeholder="Confirme sua senha">
+      </div>
+      <input type="submit" name="enter" value = "Confirmar" class="btn-submit">
+      <br>
+      <a href="login.html">Já cadastrado?</a>
+      <br>
+      <a href="index.html">Retornar à pagina principal</a>
+    </form>
+  </div>
 </body>
 </html>
